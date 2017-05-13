@@ -1,10 +1,10 @@
 ## Trivia games answers
 
-This repository contains answers to trivia games questions obtained by reverse engineering the apks of the games.
+This repository contains answers to trivia games questions obtained by reverse engineering the games apks.
 
 **Tools used**
 * python
-* jd-jui
+* jd-gui
 * dex2jar
 * apktool
 
