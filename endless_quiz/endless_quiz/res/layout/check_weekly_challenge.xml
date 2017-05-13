@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainll1" android:background="@color/Grey80Percent" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btnPrev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="Prev" />
+        <Button android:id="@id/btnWeeklyChallDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="Date" />
+        <Button android:id="@id/btnNext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="Next" />
+        <Button android:id="@id/btnLanguage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="eng" />
+        <Button android:id="@id/btnAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="Add" />
+        <TextView android:id="@id/txtNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="34" />
+        <TextView android:id="@id/txtUnchecked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="txtUnchecked" />
+    </LinearLayout>
+    <TextView android:id="@id/txtCatsInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="txtCatsInfo" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/llHolder" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

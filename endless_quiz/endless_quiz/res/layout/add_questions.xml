@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:id="@id/txtLeftToday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="Left today" />
+            <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Question" />
+            <TextView android:textSize="18.0sp" android:id="@id/txtCopyQuestion" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy Question" android:textIsSelectable="true" />
+            <EditText android:textSize="20.0sp" android:id="@id/edQuestion" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" android:maxLength="2000" android:inputType="textCapSentences|textMultiLine" />
+            <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Answer" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="20.0sp" android:id="@id/edAnswer" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="9.0" android:inputType="textCapSentences" />
+                <Button android:id="@id/btnResetAnswers" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="ResetA" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:id="@id/textView32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="WA1" />
+            <EditText android:textSize="20.0sp" android:id="@id/edWA1" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapSentences" />
+            <TextView android:id="@id/textView31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="WA2" />
+            <EditText android:textSize="20.0sp" android:id="@id/edWA2" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapSentences" />
+            <TextView android:id="@id/textView37" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="WA3" />
+            <EditText android:id="@id/edWA3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapSentences" />
+            <TextView android:id="@id/textView38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="WIKI LINK" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btnWikiLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LINK" android:layout_alignParentLeft="true" />
+                <Button android:id="@id/btnPasteWikiLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PASTE" android:layout_alignParentRight="true" />
+                <EditText android:id="@id/edWikiLink" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btnPasteWikiLink" android:layout_toRightOf="@id/btnWikiLink" android:inputType="textCapSentences" />
+            </RelativeLayout>
+            <TextView android:id="@id/textView39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="SEARCH TERM" />
+            <EditText android:id="@id/edSearhTerm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapSentences" />
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/btnBad" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BAD" android:layout_alignParentLeft="true" />
+                <Button android:id="@id/btnTrivia" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TRIVIA" android:layout_toRightOf="@id/btnBad" />
+                <Button android:id="@id/btnPro" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="btnPro" android:layout_toRightOf="@id/btnTrivia" />
+                <Button android:id="@id/btnFlags" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="btnFlags" android:layout_toRightOf="@id/btnTrivia" />
+                <Button android:id="@id/btnPostponeWeekly" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="btnFlags" android:layout_toRightOf="@id/btnFlags" />
+                <Button android:id="@id/btnSearch" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Search" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <Button android:id="@id/btnCategory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="General" />
+                <Button android:id="@id/btnRating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1200" />
+                <Button android:id="@id/btnSubmit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit" />
+                <Button android:id="@id/btnMinRating" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="MinRating" />
+                <Button android:id="@id/btnMaxRating" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="MaxRating" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

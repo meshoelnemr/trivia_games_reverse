@@ -1,0 +1,352 @@
+[
+    {
+    	"quetion":"2+2",
+    	"image":null,
+    	"answers":["4", "FOUR"],
+    	"hint1":"Let's do some math.",
+    	"hint2":"2+2=4 Welcome to None*2"
+    },
+    {
+    	"quetion":"RED+BLUE",
+    	"image":null,
+    	"answers":["PURPLE"],
+    	"hint1":"Colour combination.",
+    	"hint2":"It is the P colour."
+    },
+    {
+    	"quetion":"GREEN-BLUE+RED",
+    	"image":null,
+    	"answers":["ORANGE"],
+    	"hint1":"Combine the colours.",
+    	"hint2":"It is the O colour."
+    },
+    {
+    	"quetion":"RED+ORANGE+YELLOW+GREEN+BLUE+INDIGO+VIOLET",
+    	"image":null,
+    	"answers":["RAINBOW"],
+    	"hint1":"Reflection, refraction and dispersion of light in water droplets.",
+    	"hint2":"You might find a pot of gold at the end of it."
+    },
+    {
+    	"quetion":"TYPE SHAKE",
+    	"image":null,
+    	"answers":["WIZARD"],
+    	"hint1":"One step at a time.",
+    	"hint2":"First shake it, then type it."
+    },
+    {
+    	"quetion":"WHAT IS THE SPEED OF LIGHT?\nA: 299.712.598\nB: 302.565.122\nC: 288.677.209",
+    	"image":null,
+    	"answers":["299792458"],
+    	"hint1":"No need for multiple choice.",
+    	"hint2":"Which is the actual speed of light?"
+    },
+    {
+    	"quetion":"10JQKA",
+    	"image":null,
+    	"answers":["STRAIGHT"],
+    	"hint1":"The colour doesn't matter.",
+    	"hint2":"Play your cards right."
+    },
+    {
+    	"quetion":null,
+    	"image":"41.png",
+    	"answers":["STAR"],
+    	"hint1":"The dots are numbered for a reason.",
+    	"hint2":"Connect the dots."
+    },
+    {
+    	"quetion":"GO.TO.VERY.BLACK",
+    	"image":null,
+    	"answers":["LABYRINTH"],
+    	"hint1":"Follow the instructions.",
+    	"hint2":"Perhaps it's an address."
+    },
+    {
+    	"quetion":"WELCOME BACK. WE'VE MISSED YOU. NOW CLOSE YOUR EYES AND TELL ME WHAT YOU HEAR",
+    	"image":null,
+    	"answers":["NOTHING"],
+    	"hint1":"Write what you hear.",
+    	"hint2":"No you are not deaf."
+    },
+    {
+    	"quetion":"★T↑",
+    	"image":null,
+    	"answers":["STARTUP"],
+    	"hint1":"Write exactly what you see.",
+    	"hint2":"It's a rebus."
+    },
+    {
+    	"quetion":"FUEL\nHEAT\nOXYGEN",
+    	"image":null,
+    	"answers":["FIRE"],
+    	"hint1":"Mix the elements.",
+    	"hint2":"You cannot start it if you miss one element."
+    },
+    {
+    	"quetion":"FISH                  BUBBLE\n            FISH      BUBBLE\nFISH                  BUBBLE\n                           BUBBLE\n                          ",
+    	"image":null,
+    	"answers":["AQUARIUM","FISHTANK"],
+    	"hint1":"What you see, is what you get.",
+    	"hint2":"Imagine the picture."
+    },
+    {
+    	"quetion":"TAP THE RED DOT",
+    	"image":"dot.png",
+    	"answers":["RED AND THEN TAP"],
+    	"hint1":"Where is the red dot?",
+    	"hint2":"Make the dot red"
+    },
+    {
+    	"quetion":"WHICH ANIMAL HAS 63 LIVES",
+    	"image":null,
+    	"answers":["7CATS","SEVENCATS","9CATS","NINECATS"],
+    	"hint1":"You need more than one animal.",
+    	"hint2":"There are animals with more than one live."
+    },
+    {
+    	"quetion":"WATCH CAREFULLY FOR 9 SECONDS\nWHAT IS MISSING?",
+    	"image":null,
+    	"answers":["7","SEVEN"],
+    	"hint1":"Watch all the characters.",
+    	"hint2":"It is important to watch the countdown."
+    },
+    {
+    	"quetion":"LEAVES\n\nTRUNK\nROOTS",
+    	"image":null,
+    	"answers":["BRANCH","BRANCHES"],
+    	"hint1":"From bottom to top.",
+    	"hint2":"Complete the missing part of the tree."
+    },
+    {
+    	"quetion":"ADDDBEFOREE\nABOIEAU",
+    	"image":null,
+    	"answers":["ABOIDEAU"],
+    	"hint1":"Follow the instructions.",
+    	"hint2":"Add 'D' before..."
+    },
+    {
+    	"quetion":"0100011101001111",
+    	"image":null,
+    	"answers":["GO"],
+    	"hint1":"The machine language.",
+    	"hint2":"It's binary code."
+    },
+    {
+    	"quetion":"PIECE PEAS PISS",
+    	"image":null,
+    	"answers":["PEACE"],
+    	"hint1":"Sound alike.",
+    	"hint2":"You need one more word with the same pronunciation but a different meaning."
+    },
+    {
+    	"quetion":"EMC2",
+    	"image":null,
+    	"answers":["ALBERT","EINSTEIN","ALBERTEINSTEIN"],
+    	"hint1":"E for Energy.",
+    	"hint2":"The Theory."
+    },
+    {
+    	"quetion":"WHERE IS THE KEYBOARD?",
+    	"image":null,
+    	"answers":["KEYBOARD"],
+    	"hint1":"Find the keyboard.",
+    	"hint2":"Type the word."
+    },
+    {
+    	"quetion":"SO DARK",
+    	"image":"image2",
+    	"answers":["VAST"],
+    	"hint1":"Blind test.",
+    	"hint2":"Braille Writing."
+    },
+    {
+    	"quetion":"I TRAIN MY BRAIN TO DRAIN THE",
+    	"image":null,
+    	"answers":["GRAIN"],
+    	"hint1":"Match the pattern.",
+    	"hint2":"Match the pattern with an actual word."
+    },
+    {
+    	"quetion":"333 333 39123\n666 663333 22329\nI LOVE THIS TONE",
+    	"image":null,
+    	"answers":["JINGLEBELLS"],
+    	"hint1":"Play the piano.",
+    	"hint2":"Play the piano by dialing the numbers."
+    },
+    {
+    	"quetion":"SOCCER 22 BASKETBALL 10 VOLLEYBALL 12\nCHESS X HANDBALL X  ICE HOCKEY",
+    	"image":null,
+    	"answers":["336"],
+    	"hint1":"It takes two to tango.",
+    	"hint2":"We need the players for playing."
+    },
+    {
+    	"quetion":"COUNT AND MULTIPLY BY 7",
+    	"image":null,
+    	"answers":["133"],
+    	"hint1":"No need for the spaces.",
+    	"hint2":"Count the characters."
+    },
+    {
+    	"quetion":"DO YOU BELIEVE THE NEXT GUY?",
+    	"image":null,
+    	"answers":["NO"],
+    	"hint1":"Just answer the question.",
+    	"hint2":"I don't believe him either."
+    },
+    {
+    	"quetion":"YOU ARE RIGHT",
+    	"image":null,
+    	"answers":["LEFT"],
+    	"hint1":"So, you don't believe the previous guy.",
+    	"hint2":"If you don't believe the previous guy, then type the opposite."
+    },
+    {
+    	"quetion":"^=>\nN=Z\n:=..\n8=",
+    	"image":null,
+    	"answers":["INFINITY"],
+    	"hint1":"Rotate eight.",
+    	"hint2":"Rotate eight and translate."
+    },
+    {
+    	"quetion":"SPOORTS RAW RATS",
+    	"image":null,
+    	"answers":["STARWARSTROOPS"],
+    	"hint1":"Vice versa.",
+    	"hint2":"Read backwards."
+    },
+    {
+    	"quetion":null,
+    	"image":"illusion.png",
+    	"answers":["8381945"],
+    	"hint1":"Don't look straight.",
+    	"hint2":"Rotate and tilt"
+    },
+    {
+    	"quetion":null,
+    	"image":"img_42.png",
+    	"answers":["312629"],
+    	"hint1":"It's time to play.",
+    	"hint2":"What time is it?"
+    },
+    {
+    	"quetion":"25122014=T\n23052008=F\n31101999+22061948+25061948\n",
+    	"image":null,
+    	"answers":["STF"],
+    	"hint1":"Good day.",
+    	"hint2":"Follow the calendar."
+    },
+    {
+    	"quetion":"^",
+    	"image":null,
+    	"answers":["NORTH"],
+    	"hint1":"Let's go.",
+    	"hint2":"Look up the map."
+    },
+    {
+    	"quetion":"SCRAMBLED",
+    	"image":null,
+    	"answers":["KINGCRAFT"],
+    	"hint1":"Imagine the original position.",
+    	"hint2":"Imagine the original position and type the word."
+    },
+    {
+    	"quetion":"WOW AN OLD CALCULATOR!\n5318804",
+    	"image":null,
+    	"answers":["HOBBIES"],
+    	"hint1":"Led digits.",
+    	"hint2":"Led digits, upside down."
+    },
+    {
+    	"quetion":"DANGER=3\nNO ENTRY=0\nSTOP*DANGER*DEAD END",
+    	"image":null,
+    	"answers":["96"],
+    	"hint1":"Watch the road.",
+    	"hint2":"Watch the road signs."
+    },
+    {
+    	"quetion":"YOU HAVE TWO EYES ONE KEI AND A DOUBLE YOU",
+    	"image":null,
+    	"answers":["KIWI"],
+    	"hint1":"Double \"U\" is for \"W\".",
+    	"hint2":"Double \"U\" is for \"W\" and then you need to anagram."
+    },
+    {
+    	"quetion":"THIS IS NOT MORSE",
+    	"image":"morse.jpg",
+    	"answers":["HINTS"],
+    	"hint1":"Letters and signs have something in common.",
+    	"hint2":"Match the letters with the signs."
+    },
+    {
+    	"quetion":"YES - NO\nNON - OUI\n9 -  ",
+    	"image":null,
+    	"answers":["JA"],
+    	"hint1":"Nine sounds alike.",
+    	"hint2":"Nein."
+    },
+    {
+    	"quetion":"60\n60\n24\n7\n30",
+    	"image":null,
+    	"answers":["365"],
+    	"hint1":"Think for a second",
+    	"hint2":"It is a year."
+    },
+    {
+    	"quetion":null,
+    	"image":"39.png",
+    	"answers":["46918","FOURSIXNINEONEEIGHT"],
+    	"hint1":"Connect the stars.",
+    	"hint2":"Connect the stars, starting from the outside."
+    },
+    {
+    	"quetion":null,
+    	"image":"image4",
+    	"answers":["BATMAN"],
+    	"hint1":"Follow the dot.",
+    	"hint2":"Follow the dot and discover the sketch."
+    },
+    {
+    	"quetion":"52 WHITE\n36 BLACK\nAND 1 TAIL",
+    	"image":null,
+    	"answers":["PIANO"],
+    	"hint1":"And 1 stool.",
+    	"hint2":"Sounds great."
+    },
+    {
+    	"quetion":"ROTATE YOUR PHONE",
+    	"image":null,
+    	"answers":["ENOHP", "ENOHPRUOY"],
+    	"hint1":"No need to rotate the device.",
+    	"hint2":"No need to rotate the device,try the letters."
+    },
+    {
+    	"quetion":"HELLO+33",
+    	"image":null,
+    	"answers":["FRANCE"],
+    	"hint1":"Can you hear me?",
+    	"hint2":"Allô? Can you hear me?"
+    },
+    {
+    	"quetion":"IT IS ILLEGAL TO DRINK RED RUM IN FRONT OF A MIRROR",
+    	"image":null,
+    	"answers":["MURDER"],
+    	"hint1":"Check the reflection.",
+    	"hint2":"Check the reflection of the liquid."
+    },
+    {
+    	"quetion":"BBBWWWWWWW\nBWBBBBBBBB\nBBBWWWBBWB\n\nB=BLACK W=WHITE",
+    	"image":null,
+    	"answers":["KEY"],
+    	"hint1":"Draw the grid.",
+    	"hint2":"Draw the grid and smudge the squares."
+    },
+    {
+    	"quetion":"74MINMUSIC ? ØMM",
+    	"image":null,
+    	"answers":["120"],
+    	"hint1":"MIN=Minutes",
+    	"hint2":"MM=Millimeters"
+    }
+]

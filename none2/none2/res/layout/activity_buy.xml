@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/screen_wait" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wait" android:contentDescription="@string/content_description_app_loading_image" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/screen_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:textSize="20.0dip" android:textColor="@color/white_color" android:gravity="center|top" android:id="@id/btn_close" android:background="@null" android:paddingTop="15.0dip" android:layout_width="60.0dip" android:layout_height="fill_parent" android:drawableTop="@drawable/x" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@color/white_color" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/drawable_line_light_transparent" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="16.0dip" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/get_more" android:layout_weight="1.0" />
+                <TextView android:id="@id/tv_stars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1500*" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_share" android:background="@drawable/drawable_line_light_transparent" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_buy1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay1" android:layout_weight="1.0" />
+                </LinearLayout>
+                <Button android:textSize="15.0dip" android:textColor="@color/black_color" android:id="@id/btn_buy1" android:background="@drawable/drawable_box_white" android:layout_width="130.0dip" android:layout_height="40.0dip" android:text="@string/pay1_value" android:textAllCaps="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/drawable_line_light_transparent" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_buy2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay2" android:layout_weight="1.0" />
+                </LinearLayout>
+                <Button android:textSize="15.0dip" android:textColor="@color/black_color" android:id="@id/btn_buy2" android:background="@drawable/drawable_box_white" android:layout_width="130.0dip" android:layout_height="40.0dip" android:text="@string/pay2_value" android:textAllCaps="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/drawable_line_light_transparent" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_buy3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay3" android:layout_weight="1.0" />
+                </LinearLayout>
+                <Button android:textSize="15.0dip" android:textColor="@color/black_color" android:id="@id/btn_buy3" android:background="@drawable/drawable_box_white" android:layout_width="130.0dip" android:layout_height="40.0dip" android:text="@string/pay3_value" android:textAllCaps="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/drawable_line_light_transparent" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_buy4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay4" android:layout_weight="1.0" />
+                </LinearLayout>
+                <Button android:textSize="15.0dip" android:textColor="@color/black_color" android:id="@id/btn_buy4" android:background="@drawable/drawable_box_white" android:layout_width="130.0dip" android:layout_height="40.0dip" android:text="@string/pay4_value" android:textAllCaps="false" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/drawable_line_light_transparent" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_buy5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay5" android:layout_weight="1.0" />
+                </LinearLayout>
+                <Button android:textSize="15.0dip" android:textColor="@color/black_color" android:id="@id/btn_buy5" android:background="@drawable/drawable_box_white" android:layout_width="130.0dip" android:layout_height="40.0dip" android:text="@string/pay5_value" android:textAllCaps="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

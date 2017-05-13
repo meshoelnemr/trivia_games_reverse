@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btnAddQuestions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Add questions" />
+            <Button android:id="@id/btnAddQuestionsProVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Add questions for Pro Version" />
+            <Button android:id="@id/btnTest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Test English" />
+            <Button android:id="@id/btnTestGerman" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Test German" />
+            <Button android:id="@id/btnCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="CHECK" />
+            <Button android:id="@id/btnCheckWeeklyChall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="CHECK WEEKLY CHALL" />
+            <Button android:id="@id/btnCheckG1000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="CHECK G1000" />
+            <Button android:id="@id/btnGame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Game" />
+            <Button android:id="@id/btnForceStartWeeklyChall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="forceStartWeekly" />
+            <Button android:id="@id/btnForceStartWeeklyChallGer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="forceStartWeekly GER" />
+            <Button android:id="@id/btnPlayWeeklyOnly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="PlayWeeklyWithoutTimer" />
+            <Button android:id="@id/btnPlayWeeklyOnlyGer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="PlayWeeklyWithoutTimer GER" />
+            <Button android:id="@id/btnReset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="ResetRatingGame" />
+            <Button android:id="@id/btnSetAllChecked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="setAllChecked" />
+            <Button android:id="@id/btnCreateGerman" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Create German" />
+            <Button android:id="@id/btnResetAllQuestionsChecked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Reset All For Checked" />
+            <LinearLayout android:orientation="vertical" android:id="@id/llCatHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

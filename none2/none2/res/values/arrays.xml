@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solved">
+        <item>@string/solved5</item>
+        <item>@string/solved10</item>
+        <item>@string/solved15</item>
+        <item>@string/solved20</item>
+        <item>@string/solved25</item>
+        <item>@string/solved30</item>
+        <item>@string/solved35</item>
+        <item>@string/solved40</item>
+        <item>@string/solved45</item>
+        <item>@string/solved50</item>
+    </string-array>
+</resources>

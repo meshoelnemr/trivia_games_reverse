@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mainll1" android:background="@color/Grey80Percent" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textColor="@color/GhostWhite" android:id="@id/txtGoneThrough" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="GONE THROUGH" />
+            <com.timleg.quiz.UI.AutoFitTextView.AutofitTextView android:textSize="22.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtQuestion" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="120.0dip" android:text="Question" android:maxLines="3" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/black" android:id="@id/txtCorrect" android:background="@color/WhiteYellow" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:paddingRight="20.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minWidth="150.0dip" android:text="Description" />
+                    <TextView android:textSize="20.0sp" android:textColor="@color/GhostWhite" android:id="@id/txtWA1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minWidth="150.0dip" android:text="txtWA1" />
+                    <TextView android:textSize="20.0sp" android:textColor="@color/GhostWhite" android:id="@id/txtWA2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minWidth="150.0dip" android:text="txtWA2" />
+                    <TextView android:textSize="20.0sp" android:textColor="@color/GhostWhite" android:id="@id/txtWA3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minWidth="150.0dip" android:text="txtWA3" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="@color/GhostWhite" android:id="@id/txtRating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Rating" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                        <Button android:textSize="16.0sp" android:id="@id/btnMinRating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="minRating" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                        <Button android:textSize="16.0sp" android:id="@id/btnMaxRating" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="maxRating" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textSize="18.0sp" android:id="@id/btnCategory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="CATEGORY" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/butonsSuperuser" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <Button android:id="@id/btnOK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OK" />
+                <Button android:id="@id/btnBack" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Back" />
+                <Button android:id="@id/btnEdit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="EDIT" />
+                <Button android:id="@id/btnWiki" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="Wiki" />
+                <Button android:id="@id/btnSkip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="SKIP" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/mainll1" android:background="@drawable/gradient_weekly_challenge" android:padding="15.0dip" android:layout_width="300.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:layout_width="270.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip">
+            <TextView android:textSize="20.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtHeader" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/WeeklyChallenge" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtCorrectHeader" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ResultCorrect" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtCorrectOutOf" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="14 out of 20 (65%)" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtTimeHeader" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ResultTime" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtTime" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="2 min 35.2 sec" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtRankHeader" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ResultRank" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtRank" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="234th out of 2345 players\n(top 30%)" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtFinalResultsInfo" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/FinalResultsAvailableTomorrow" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

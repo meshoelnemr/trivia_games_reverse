@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--
+-->
+<html>
+ <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>none</title>
+        <!--apply global settings-->
+
+ </head>
+ <body onLoad="initFastButtons(); onLoad();" >
+ <script>
+function onLoad() {
+if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
+document.addEventListener('deviceready', initApp, false);
+} else {
+initApp();
+}
+}
+var admobid = {};
+if( /(android)/i.test(navigator.userAgent) ) {
+admobid = { // for Android
+banner: 'ca-app-pub-1709022118330389/7030920955',
+interstitial: 'ca-app-pub-1709022118330389/8530686950'
+};
+} else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
+admobid = { // for iOS
+banner: 'ca-app-pub-1709022118330389/4716582957',
+interstitial: 'ca-app-pub-1709022118330389/1007420158'
+};
+} else {
+admobid = { // for Windows Phone
+banner: 'ca-app-pub-1709022118330389/4576982158',
+interstitial: 'ca-app-pub-1709022118330389/7053953756'
+};
+}
+function initApp() {
+if (! AdMob ) { alert( 'admob plugin not ready' ); return; }
+initAd();
+// display the banner at startup
+createSelectedBanner();
+}
+function initAd(){
+var defaultOptions = {
+
+position: AdMob.AD_POSITION.BOTTOM_CENTER,
+
+bgColor: '#4d4d4d', // color name, or '#RRGGBB'
+
+//isTesting: true, // set to true, to receiving test ad for testing purpose
+
+};
+AdMob.setOptions( defaultOptions );
+registerAdEvents();
+}
+
+function registerAdEvents() {
+
+document.addEventListener('onAdFailLoad', function(data){
+//alert('error: ' + data.error +
+//', reason: ' + data.reason +
+//', adNetwork:' + data.adNetwork +
+//', adType:' + data.adType +
+//', adEvent:' + data.adEvent); // adType: 'banner' or 'interstitial'
+});
+document.addEventListener('onAdLoaded', function(data){});
+document.addEventListener('onAdPresent', function(data){});
+document.addEventListener('onAdLeaveApp', function(data){});
+document.addEventListener('onAdDismiss', function(data){});
+}
+// click button to call following functions
+
+function createSelectedBanner() {
+	
+	AdMob.createBanner({
+    adId: admobid.banner,
+    position: AdMob.AD_POSITION.BOTTOM_CENTER,
+    autoShow: true,
+	overlap: true,
+    success: function(){
+    },
+    error: function(){
+        alert('failed to create banner');
+    }
+});
+
+}
+
+
+</script>
+<span id="fastclick">
+<div id="over" class="over"> 
+<div class="overshare">You have reached <br>level 5 of none*</div>
+<input class="key4" type="button"  onClick="window.plugins.socialsharing.share('I have reached level 5 of none*', null, null, 'http://whatisnone.com')" value="SHARE">
+<input class="key3" type="button"  onClick="hideHideLayers()" value="close">
+</div>
+ <div class="app" >
+ 
+<div class="maingame">
+
+<div class="question">NO</div>
+  
+  <br><div class="answer"> 
+
+        <input name="count"  type="text" class="solve" id="count" maxlength="15" readonly="readonly">
+         
+   </div>
+   
+   </div>
+        
+   
+       <div class="menu"  >
+       
+       <input class="key" type="button"  onClick="changeText('1')" value="1">
+       <input class="key" type="button"  onClick="changeText('2')" value="2">
+       <input class="key" type="button"  onClick="changeText('3')" value="3">
+       <input class="key" type="button"  onClick="changeText('4')" value="4">
+       <input class="key" type="button"  onClick="changeText('5')" value="5">
+       <input class="key" type="button"  onClick="changeText('6')" value="6">
+       <input class="key" type="button"  onClick="changeText('7')" value="7">
+       <input class="key" type="button"  onClick="changeText('8')" value="8">
+       <input class="key" type="button"  onClick="changeText('9')" value="9">
+       <input class="key" type="button"  onClick="changeText('0')" value="0">
+       <br>
+       <input class="key" type="button"  onClick="changeText('Q')" value="Q">
+       <input class="key" type="button"  onClick="changeText('W')" value="W">
+       <input class="key" type="button"  onClick="changeText('E')" value="E">
+       <input class="key" type="button"  onClick="changeText('R')" value="R">
+       <input class="key" type="button"  onClick="changeText('T')" value="T">
+       <input class="key" type="button"  onClick="changeText('Y')" value="Y">
+       <input class="key" type="button"  onClick="changeText('U')" value="U">
+       <input class="key" type="button"  onClick="changeText('I')" value="I">
+       <input class="key" type="button"  onClick="changeText('O')" value="O">
+       <input class="key" type="button"  onClick="changeText('P')" value="P">
+       <br>
+       <input class="key" type="button"  onClick="changeText('A')" value="A">
+       <input class="key" type="button"  onClick="changeText('S')" value="S">
+       <input class="key" type="button"  onClick="changeText('D')" value="D">
+       <input class="key" type="button"  onClick="changeText('F')" value="F">
+       <input class="key" type="button"  onClick="changeText('G')" value="G">
+       <input class="key" type="button"  onClick="changeText('H')" value="H">
+       <input class="key" type="button"  onClick="changeText('J')" value="J">
+       <input class="key" type="button"  onClick="changeText('K')" value="K">
+       <input class="key" type="button"  onClick="changeText('L')" value="L">
+      
+       <br>
+       <input class="key" type="button"  onClick="changeText('Z')" value="Z">
+       <input class="key" type="button"  onClick="changeText('X')" value="X">
+       <input class="key" type="button"  onClick="changeText('C')" value="C">
+       <input class="key" type="button"  onClick="changeText('V')" value="V">
+       <input class="key" type="button"  onClick="changeText('B')" value="B">
+       <input class="key" type="button"  onClick="changeText('N')" value="N">
+       <input class="key" type="button"  onClick="changeText('M')" value="M">
+       <input class="key" type="button"  onClick="delete_num ()" value= "<">
+       
+       
+       <br>
+       <input class="key2" type="button"  onClick="showHideLayers()" value="none*">
+       <input id="solve" class="key2" type="button"  onClick="checkText()" value="solve">
+
+       </div>
+ 
+              
+  </div>
+
+
+    </span>
+
+<script src="phonegap.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/fastclick.js"></script>
+<script language="javascript">
+            function showHideLayers() {
+                var showme = document.getElementById("over");
+                showme.style.visibility = "visible";
+            }
+			  function hideHideLayers() {
+                var showme = document.getElementById("over");
+                showme.style.visibility = "hidden";
+            }
+        </script>
+<script type="text/javascript">
+
+ // Wait for device API libraries to load
+    //
+    //
+
+    document.addEventListener("backbutton", onBackKeyDown, false);
+function onBackKeyDown(e) {
+  e.preventDefault();
+}
+
+var sendbtn = document.getElementById('solve');
+var currentlevel = 1;
+
+
+
+</script>
+
+<script>
+
+function changeText(value) {
+     document.getElementById('count').value = document.getElementById('count').value+value;   
+}
+
+function delete_num ()
+{
+    var field = document.getElementById('count');
+    field.value = field.value.slice(0, -1); //Extract from index 0 to the before-last character
+    phone_number.pop(); //Remove the last element from the phone number. It's length is maintained by js itself.
+    return false; 
+}
+
+
+//CHECK ANSWER
+
+function checkText(value) {
+
+if (document.getElementById('count').value =="YES"||document.getElementById('count').value =="OUI") {
+	//WRITE
+
+
+sendbtn.disabled = true;
+localStorage.setItem("levels", "6");
+
+window.location.href ='6.html';
+
+//ENA WRITE
+
+	
+} else {
+	
+     document.getElementById('count').value = "";   
+
+   
+} 
+return false;
+}
+
+</script>
+
+</body>
+</html> 

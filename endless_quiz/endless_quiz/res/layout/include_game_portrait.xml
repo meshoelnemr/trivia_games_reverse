@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:autofit="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/mainll1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0">
+        <LinearLayout android:gravity="center" android:id="@id/llQuestionHolder" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.timleg.quiz.UI.AutoFitTextView.AutofitTextView android:textSize="22.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/txtQuestion" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Question" android:maxLines="3" autofit:minTextSize="16.0sp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/llButtonsHolder" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llButtonHolderTop" android:paddingLeft="30.0dip" android:paddingTop="0.0dip" android:paddingRight="30.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="4.0">
+                <LinearLayout android:gravity="center" android:id="@id/llAnswer1" android:background="@color/grey70percent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <com.timleg.quiz.UI.AutoFitTextView.AutofitTextView android:textSize="24.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/btnAnswer1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Answer 1" android:maxLines="1" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/llAnswer2" android:background="@color/grey70percent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_weight="1.0">
+                    <com.timleg.quiz.UI.AutoFitTextView.AutofitTextView android:textSize="24.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/btnAnswer2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Answer 2" android:maxLines="1" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/llAnswer3" android:background="@color/grey70percent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_weight="1.0">
+                    <com.timleg.quiz.UI.AutoFitTextView.AutofitTextView android:textSize="24.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/btnAnswer3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Answer 3" android:maxLines="1" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:id="@id/llAnswer4" android:background="@color/grey70percent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_weight="1.0">
+                    <com.timleg.quiz.UI.AutoFitTextView.AutofitTextView android:textSize="24.0sp" android:textColor="@color/GhostWhite" android:gravity="center" android:id="@id/btnAnswer4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Answer 4" android:maxLines="1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

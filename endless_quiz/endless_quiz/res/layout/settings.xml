@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/llSettingsHolder" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llRepeatIncorrect" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imgRepeatIncorrect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/checkbox_white" android:text="@string/RepeatIncQuestions" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/GhostWhite" android:id="@id/txtRepeatIncorrect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/RepeatIncQuestions" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/llStopAfterEach" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imgStopAfterEach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/checkbox_white" android:text="@string/RepeatIncQuestions" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/GhostWhite" android:id="@id/txtStopAfterEach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/StopAfterEachQuestion" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

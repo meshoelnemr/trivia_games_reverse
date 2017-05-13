@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wearableApp package="com.timleg.quiz">
+    <versionCode>120</versionCode>
+    <versionName>1.0.1.2.5</versionName>
+    <rawPathResId>android_wear_micro_apk</rawPathResId>
+</wearableApp>
