@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/list_item" android:descendantFocusability="blocksDescendants" android:layout_width="250.0dip" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:background="@drawable/btn_moregames_box" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_margin="6.0dip" android:weightSum="5.0">
+        <ImageView android:id="@id/icon" android:layout_width="0.0dip" android:layout_height="70.0dip" android:src="@drawable/moregames_rich" android:layout_weight="1.3" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.7">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/WhiteSmoke" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="2.0dip" android:text="Εκατομμυριούxος" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/WhiteSmoke" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:text="Το πιο δημοφιλές παιχνίδι στην Ελλάδα!" />
+        </LinearLayout>
+        <ImageView android:id="@id/imageButton2" android:layout_width="0.0dip" android:layout_height="55.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/download" android:scaleType="fitXY" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg" android:scaleType="centerCrop" />
+    <include android:id="@id/toolbar" layout="@layout/layout_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/settings_top" android:paddingBottom="32.0dip" android:layout_width="@dimen/level_width" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textTotalTime" android:background="@color/bg_store_1_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="00:00:00" android:layout_alignParentRight="true" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="start|center" android:background="@color/bg_store_1_2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/label_stats_total_time_played" android:layout_toLeftOf="@id/textTotalTime" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textRebusesSolved" android:background="@color/bg_store_2_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="0" android:layout_alignParentRight="true" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="start|center" android:background="@color/bg_store_2_2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/label_stats_rebuses_solved" android:layout_toLeftOf="@id/textRebusesSolved" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textNumberOfAttempts" android:background="@color/bg_store_3_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="0" android:layout_alignParentRight="true" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="start|center" android:background="@color/bg_store_3_2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/label_stats_number_of_attempts" android:layout_toLeftOf="@id/textNumberOfAttempts" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textCorrectAnswers" android:background="@color/bg_store_4_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="0%" android:layout_alignParentRight="true" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="start|center" android:background="@color/bg_store_4_2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/label_stats_correct_answers" android:layout_toLeftOf="@id/textCorrectAnswers" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textTotalCoins" android:background="@color/bg_store_5_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="0" android:layout_alignParentRight="true" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="start|center" android:background="@color/bg_store_5_2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/label_stats_total_coins" android:layout_toLeftOf="@id/textTotalCoins" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textStatsScore" android:background="@color/bg_store_6_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="0" android:layout_alignParentRight="true" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="start|center" android:background="@color/bg_store_6_2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/label_stats_score" android:layout_toLeftOf="@id/textStatsScore" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/containerHintsUsed" android:background="@color/bg_store_7_1" android:paddingRight="1.0px" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_alignParentRight="true">
+                    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="72.0dip" android:layout_height="18.0dip" android:layout_alignParentRight="true">
+                        <com.jutiful.rebus.utils.FontTextView android:textSize="16.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textHintUsed1" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="0" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/stats_hint_1" android:scaleType="center" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="72.0dip" android:layout_height="18.0dip" android:layout_alignParentRight="true">
+                        <com.jutiful.rebus.utils.FontTextView android:textSize="16.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textHintUsed2" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="0" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/stats_hint_2" android:scaleType="center" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="72.0dip" android:layout_height="18.0dip" android:layout_alignParentRight="true">
+                        <com.jutiful.rebus.utils.FontTextView android:textSize="16.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textHintUsed3" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="0" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/stats_hint_3" android:scaleType="center" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="72.0dip" android:layout_height="18.0dip" android:layout_alignParentRight="true">
+                        <com.jutiful.rebus.utils.FontTextView android:textSize="16.0dip" android:textColor="@color/textSettings" android:gravity="center" android:id="@id/textHintUsed4" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="18.0dip" android:text="0" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/stats_hint_4" android:scaleType="center" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="start|center" android:background="@color/bg_store_7_2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/label_stats_hints_used" android:layout_toLeftOf="@id/containerHintsUsed" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:gravity="center" android:id="@id/imageEasiest" android:background="@color/bg_store_8_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_alignParentRight="true" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="start|center" android:id="@id/textEasiest" android:background="@color/bg_store_8_2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/template_stats_the_easiest_rebus" android:layout_toLeftOf="@id/imageEasiest" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:gravity="center" android:id="@id/imageMostDifficult" android:background="@color/bg_store_9_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_alignParentRight="true" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/textSettings" android:gravity="start|center" android:id="@id/textMostDifficult" android:background="@color/bg_store_9_2" android:paddingLeft="20.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/template_stats_the_most_difficult_rebus" android:layout_toLeftOf="@id/imageMostDifficult" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

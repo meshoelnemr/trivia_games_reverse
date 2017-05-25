@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@null" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/containerLevel" android:clipChildren="false" layout="@layout/fragment_level_clear" />
+    <ImageView android:id="@id/imageRebus" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="50.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <include android:id="@id/containerAnswer" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/layout_answer" />
+    <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/containerHelp" android:paddingTop="8.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/containerAnswer" android:layout_below="@id/imageRebus">
+        <ImageButton android:id="@id/buttonHelp1" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_help_1" android:minWidth="0.0dip" android:minHeight="0.0dip" />
+        <ImageButton android:id="@id/buttonHelp2" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_help_2" android:minWidth="0.0dip" android:minHeight="0.0dip" />
+        <ImageButton android:id="@id/buttonHelp3" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_help_3" android:minWidth="0.0dip" android:minHeight="0.0dip" />
+        <ImageButton android:id="@id/buttonHelp4" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_help_4" android:minWidth="0.0dip" android:minHeight="0.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/containerCorrectAnswer" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/containerAnswer" android:layout_below="@id/imageRebus">
+        <com.jutiful.rebus.utils.FontTextView android:textSize="46.0dip" android:textColor="@color/textMain" android:gravity="center_horizontal" android:id="@id/textCorrectAnswer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Glove" android:layout_alignParentTop="true" android:textAllCaps="true" />
+        <ImageButton android:id="@id/buttonShare" android:background="?android:selectableItemBackground" android:padding="16.0dip" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_share_free" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <View android:id="@id/center" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerInParent="true" />
+        <RelativeLayout android:id="@id/containerCoins" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_toRightOf="@id/center" android:layout_below="@id/textCorrectAnswer">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_win_coins" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <com.jutiful.rebus.utils.FontTextView android:textSize="36.0dip" android:textColor="@color/coins" android:id="@id/textCurrentCoins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="999" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/coins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:text="@string/label_coins" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/containerScore" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:layout_toLeftOf="@id/center" android:layout_below="@id/textCorrectAnswer">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/image_win_score" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <com.jutiful.rebus.utils.FontTextView android:textSize="18.0dip" android:textColor="@color/scoreCurrent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_score" />
+                <com.jutiful.rebus.utils.FontTextView android:textSize="36.0dip" android:textColor="@color/scoreCurrent" android:id="@id/textCurrentScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4.0dip" android:text="999" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

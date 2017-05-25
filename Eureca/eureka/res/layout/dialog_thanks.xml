@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/rate_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@color/Black" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/rateus" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Button android:textStyle="bold" android:textColor="@color/White" android:id="@id/buttonOK" android:background="@drawable/green_button" android:layout_width="100.0dip" android:layout_height="70.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/ok" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="22.0sp" android:id="@id/rateText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/ratetext" android:layout_below="@id/title" android:layout_alignParentLeft="true" />
+</RelativeLayout>

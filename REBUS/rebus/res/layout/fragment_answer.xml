@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/containerBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/containerAnswer" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_answer" />
+        <include android:id="@id/containerKeyboard" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_keyboard" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/containerTop" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_above="@id/containerBottom" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/containerHelp" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="200.0dip" android:layout_marginLeft="-4.0dip" android:layout_alignParentRight="true">
+            <ImageButton android:id="@id/buttonHelp1" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_help_1" android:scaleType="fitEnd" android:adjustViewBounds="true" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/buttonHelp2" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_help_2" android:scaleType="fitEnd" android:adjustViewBounds="true" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/buttonHelp3" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_help_3" android:scaleType="fitEnd" android:adjustViewBounds="true" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/buttonHelp4" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_help_4" android:scaleType="fitEnd" android:adjustViewBounds="true" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:orientation="vertical" android:id="@id/containerRebus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/containerHelp">
+            <ImageView android:id="@id/imageRebus" android:padding="8.0dip" android:layout_width="@dimen/level_width" android:layout_height="@dimen/level_width" android:src="@drawable/rebus_01_01" />
+            <ImageView android:id="@id/imageHelp" android:padding="8.0dip" android:visibility="invisible" android:layout_width="@dimen/level_width" android:layout_height="@dimen/level_width" android:src="@drawable/overlay_help" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

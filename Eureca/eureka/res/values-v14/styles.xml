@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonBase" parent="@style/StyleBase" />
+    <style name="CategoryTextView" parent="@style/StyleBase">
+        <item name="android:background">@drawable/category_gradient</item>
+    </style>
+    <style name="Divider">
+        <item name="android:background">?android:listDivider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="OptionsStyle" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+    <style name="Platform.AppCompat" parent="@style/Platform.V14.AppCompat" />
+    <style name="Platform.AppCompat.Light" parent="@style/Platform.V14.AppCompat.Light" />
+    <style name="QuestionButton" parent="@style/ButtonBase">
+        <item name="android:background">@drawable/question_gradient</item>
+        <item name="android:layout_margin">3.0dip</item>
+        <item name="android:onClick">OnQuestionClick</item>
+    </style>
+    <style name="StyleBase" parent="@style/Text">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_margin">5.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="Text">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="btButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="btComplaintSpinner" parent="@android:style/Widget">
+        <item name="android:textColorHint">@color/Black</item>
+    </style>
+    <style name="btComplaintSpinnerTitle" parent="@style/btText">
+        <item name="android:textColor">@color/White</item>
+    </style>
+    <style name="btText">
+        <item name="android:textColor">@color/White</item>
+    </style>
+    <style name="v3BTButton" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="v3BTImageButton" parent="@style/v3BTButton">
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="v3BTTextViewDark">
+        <item name="android:textColor">@color/White</item>
+    </style>
+    <style name="v3BTTextViewTransparent">
+        <item name="android:textColor">@color/White</item>
+    </style>
+    <style name="v3WTTextViewDark">
+        <item name="android:textColor">@color/White</item>
+    </style>
+    <style name="v3WTTextViewTransparent">
+        <item name="android:textColor">@color/Black</item>
+    </style>
+    <style name="wtComplaintSpinner" parent="@android:style/Widget">
+        <item name="android:textColorHint">@color/Black</item>
+    </style>
+    <style name="wtText">
+        <item name="android:textColor">@color/Black</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button" parent="@style/Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="CategoryTextView2" parent="@style/StyleBase2">
+        <item name="android:background">@drawable/category_gradient</item>
+    </style>
+    <style name="StyleBase2" parent="@style/Text">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_margin">5.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="TextAppearance.AppCompat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="TextAppearance.StatusBar.EventContent" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="TextAppearance.StatusBar.EventContent.Info" parent="@style/TextAppearance.StatusBar.EventContent" />
+    <style name="TextAppearance.StatusBar.EventContent.Line2" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time" parent="@style/TextAppearance.StatusBar.EventContent" />
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="HoloSpinner" parent="@android:style/Theme.Holo.Dialog" />
+    <style name="Platform.V14.AppCompat" parent="@style/Platform.V11.AppCompat">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light" parent="@style/Platform.V11.AppCompat.Light">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+</resources>

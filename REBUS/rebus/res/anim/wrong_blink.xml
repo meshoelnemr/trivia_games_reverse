@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="30" android:repeatCount="1" android:valueFrom="#ff000000" android:valueTo="#ff000000" android:propertyName="textColor" />
+        <objectAnimator android:duration="0" android:repeatCount="1" android:valueFrom="#ff000000" android:valueTo="#ffff0000" android:propertyName="textColor" />
+        <objectAnimator android:duration="25" android:repeatCount="1" android:valueFrom="#ffff0000" android:valueTo="#ffff0000" android:propertyName="textColor" />
+        <objectAnimator android:duration="0" android:repeatCount="1" android:valueFrom="#ffff0000" android:valueTo="#ff000000" android:propertyName="textColor" />
+        <objectAnimator android:duration="30" android:repeatCount="1" android:valueFrom="#ff000000" android:valueTo="#ff000000" android:propertyName="textColor" />
+        <objectAnimator android:duration="0" android:repeatCount="1" android:valueFrom="#ff000000" android:valueTo="#ffff0000" android:propertyName="textColor" />
+        <objectAnimator android:duration="25" android:repeatCount="1" android:valueFrom="#ffff0000" android:valueTo="#ffff0000" android:propertyName="textColor" />
+        <objectAnimator android:duration="0" android:repeatCount="1" android:valueFrom="#ffff0000" android:valueTo="#ff000000" android:propertyName="textColor" />
+        <objectAnimator android:duration="30" android:repeatCount="1" android:valueFrom="#ff000000" android:valueTo="#ff000000" android:propertyName="textColor" />
+        <objectAnimator android:duration="0" android:repeatCount="1" android:valueFrom="#ff000000" android:valueTo="#ffff0000" android:propertyName="textColor" />
+        <objectAnimator android:duration="25" android:repeatCount="1" android:valueFrom="#ffff0000" android:valueTo="#ffff0000" android:propertyName="textColor" />
+        <objectAnimator android:duration="0" android:repeatCount="1" android:valueFrom="#ffff0000" android:valueTo="#ff000000" android:propertyName="textColor" />
+    </set>
+    <objectAnimator android:duration="75" android:repeatCount="5" android:repeatMode="reverse" android:valueFrom="1" android:valueTo="1.05" android:propertyName="scaleX" />
+    <objectAnimator android:duration="75" android:repeatCount="5" android:repeatMode="reverse" android:valueFrom="1" android:valueTo="1.05" android:propertyName="scaleY" />
+</set>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/linearLayout6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:weightSum="3.0" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.8">
+            <com.google.android.gms.ads.AdView android:layout_gravity="center" android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" ads:adSize="LEADERBOARD" ads:adUnitId="ca-app-pub-3681432414784125/9680849646" xmlns:ads="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:weightSum="3.0" android:layout_weight="1.2">
+            <Button android:id="@id/imageButton1" android:background="@drawable/next_question" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginLeft="47.0dip" android:adjustViewBounds="true" android:onClick="nextQuestion" />
+            <Button android:id="@id/imageButton2" android:background="@drawable/eureka" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginLeft="30.0dip" android:adjustViewBounds="true" android:onClick="eureka" />
+            <Button android:id="@id/imageButton3" android:background="@drawable/peninta" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginLeft="30.0dip" android:adjustViewBounds="true" android:onClick="peninta" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linearLayoutQuestion" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="2.0" android:layout_weight="2.0">
+        <ProgressBar android:id="@id/timer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="2.0dip" android:max="200" android:indeterminateOnly="false" android:layout_weight="0.2" style="?android:attr/progressBarStyleHorizontal" />
+        <com.educ8s.eureka2017.AutoResizeTextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/White" android:gravity="center" android:id="@id/textViewQuestion" android:background="@drawable/question" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="10.0dip" android:text="Ερώτηση ..." android:layout_weight="1.6" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/linearLayoutAnswer1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="2.0" android:layout_weight="1.0">
+        <Button android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/White" android:id="@id/apantisiA" android:background="@drawable/answer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="Απάντηση A" android:layout_weight="1.0" />
+        <Button android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/White" android:id="@id/apantisiB" android:background="@drawable/answer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="Απάντηση B" android:layout_weight="1.0" /> />
+</LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/linearLayoutAnswer2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="2.0" android:layout_weight="1.0">
+        <Button android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/White" android:id="@id/apantisiC" android:background="@drawable/answer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:text="Απάντηση Γ" android:layout_weight="1.0" />
+        <Button android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/White" android:id="@id/apantisiD" android:background="@drawable/answer" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="Απάντηση Δ" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="10.0">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="45.0sp" android:textStyle="bold" android:textColor="#fff9b122" android:gravity="center" android:id="@id/katataksi" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="5.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:textStyle="bold" android:id="@id/onoma" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_weight="5.3" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/date" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/LightGoldenrodYellow" android:gravity="left" android:layout_gravity="center" android:id="@id/score" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="7.0dip" android:layout_weight="3.7" />
+    </LinearLayout>
+</LinearLayout>

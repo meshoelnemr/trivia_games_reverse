@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_keyboard" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/buttonQ" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonW" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonE" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonR" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonT" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonY" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonU" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonI" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonO" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonP" layout="@layout/layout_keyboard_button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.05" />
+        <include android:id="@id/buttonA" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonS" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonD" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonF" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonG" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonH" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonJ" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonK" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonL" layout="@layout/layout_keyboard_button" />
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.05" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/buttonHide" android:layout_width="fill_parent" android:layout_height="52.0dip" android:src="@drawable/btn_hide" android:layout_weight="0.94" style="?android:attr/buttonBarButtonStyle" />
+        <include android:id="@id/buttonZ" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonX" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonC" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonV" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonB" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonN" layout="@layout/layout_keyboard_button" />
+        <include android:id="@id/buttonM" layout="@layout/layout_keyboard_button" />
+        <ImageButton android:id="@id/buttonBackspace" android:layout_width="fill_parent" android:layout_height="52.0dip" android:src="@drawable/btn_backspace" android:layout_weight="0.94" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

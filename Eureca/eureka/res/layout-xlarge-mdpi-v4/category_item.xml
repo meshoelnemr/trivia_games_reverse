@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="80.0dip" android:weightSum="10.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.7">
+            <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="@color/White" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="20.0sp" android:textColor="@color/White" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Answered: 56%" />
+        </LinearLayout>
+        <CheckBox android:gravity="right" android:id="@id/checkBox1" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/custom_checkbox" android:layout_weight="5.3" android:scaleX="1.0" android:scaleY="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.jutiful.rebus.utils.SAutoBgButton android:id="@id/imageRebus1" android:layout_width="@dimen/rebus_width" android:layout_height="@dimen/rebus_width" />
+            <com.jutiful.rebus.utils.SAutoBgButton android:id="@id/imageRebus2" android:layout_width="@dimen/rebus_width" android:layout_height="@dimen/rebus_width" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.jutiful.rebus.utils.SAutoBgButton android:id="@id/imageRebus3" android:layout_width="@dimen/rebus_width" android:layout_height="@dimen/rebus_width" />
+            <com.jutiful.rebus.utils.SAutoBgButton android:id="@id/imageRebus4" android:layout_width="@dimen/rebus_width" android:layout_height="@dimen/rebus_width" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.jutiful.rebus.utils.SAutoBgButton android:id="@id/imageRebus5" android:layout_width="@dimen/rebus_width" android:layout_height="@dimen/rebus_width" />
+            <com.jutiful.rebus.utils.SAutoBgButton android:id="@id/imageRebus6" android:layout_width="@dimen/rebus_width" android:layout_height="@dimen/rebus_width" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.jutiful.rebus.utils.SAutoBgButton android:id="@id/imageRebus7" android:layout_width="@dimen/rebus_width" android:layout_height="@dimen/rebus_width" />
+            <com.jutiful.rebus.utils.SAutoBgButton android:id="@id/imageRebus8" android:layout_width="@dimen/rebus_width" android:layout_height="@dimen/rebus_width" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/imageOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+</RelativeLayout>

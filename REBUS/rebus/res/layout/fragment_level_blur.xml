@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageLevel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" android:src="@drawable/blur_level_01" android:scaleType="center" />
+    <ImageView android:id="@id/imageOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip" android:scaleType="center" />
+    <com.jutiful.rebus.utils.FontTextView android:textSize="96.0dip" android:textColor="@color/textMain" android:gravity="center" android:id="@id/textOverlay" android:paddingTop="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="03" />
+</FrameLayout>

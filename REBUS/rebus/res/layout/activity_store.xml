@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg" android:scaleType="centerCrop" />
+    <include android:id="@id/toolbar" layout="@layout/layout_toolbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/settings_top" android:paddingBottom="32.0dip" android:layout_width="@dimen/level_width" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rowRemoveAds" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="36.0dip" android:gravity="center" android:id="@id/buttonRemoveAdsPrice" android:background="@color/bg_store_1_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="@string/button_remove_ads_price" />
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="18.0dip" android:gravity="start|center" android:id="@id/buttonRemoveAds" android:background="@color/bg_store_1_2" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/button_remove_ads" android:layout_toRightOf="@id/buttonRemoveAdsPrice" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="36.0dip" android:gravity="center" android:id="@id/button3000CoinsPrice" android:background="@color/bg_store_2_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="@string/button_3000_coins_price" />
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="18.0dip" android:gravity="start|center" android:id="@id/button3000Coins" android:background="@color/bg_store_2_2" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/button_3000_coins" android:layout_toRightOf="@id/button3000CoinsPrice" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="36.0dip" android:gravity="center" android:id="@id/button10000CoinsPrice" android:background="@color/bg_store_3_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_margin="-16.0dip" android:text="@string/button_10000_coins_price" />
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="18.0dip" android:gravity="start|center" android:id="@id/button10000Coins" android:background="@color/bg_store_3_2" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/button_10000_coins" android:layout_toRightOf="@id/button10000CoinsPrice" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="36.0dip" android:gravity="center" android:id="@id/button30000CoinsPrice" android:background="@color/bg_store_4_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="@string/button_30000_coins_price" />
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="18.0dip" android:gravity="start|center" android:id="@id/button30000Coins" android:background="@color/bg_store_4_2" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/button_30000_coins" android:layout_toRightOf="@id/button30000CoinsPrice" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="36.0dip" android:gravity="center" android:id="@id/button100000CoinsPrice" android:background="@color/bg_store_5_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="@string/button_100000_coins_price" />
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="18.0dip" android:gravity="start|center" android:id="@id/button100000Coins" android:background="@color/bg_store_5_2" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/button_100000_coins" android:layout_toRightOf="@id/button100000CoinsPrice" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rowOpenLevels" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="36.0dip" android:gravity="center" android:id="@id/buttonOpenLevelsPrice" android:background="@color/bg_store_6_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="@string/button_open_levels_price" />
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="18.0dip" android:gravity="start|center" android:id="@id/buttonOpenLevels" android:background="@color/bg_store_6_2" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/button_open_levels" android:layout_toRightOf="@id/buttonOpenLevelsPrice" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="36.0dip" android:gravity="center" android:id="@id/buttonMegaPackPrice" android:background="@color/bg_store_7_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="@string/button_megapack_price" />
+                <com.jutiful.rebus.utils.SAutoBgImageButton android:gravity="start|center" android:id="@id/buttonMegaPackCoins" android:background="@color/bg_store_7_2" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_toRightOf="@id/buttonMegaPackPrice" />
+                <ImageView android:gravity="start|center" android:id="@id/buttonMegaPackCoinsOverlay" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="72.0dip" android:src="@drawable/mega_pack" android:layout_toRightOf="@id/buttonMegaPackPrice" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgImageButton android:gravity="center" android:id="@id/buttonAdsPrice" android:background="@color/bg_store_8_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/btn_ads" />
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="18.0dip" android:gravity="start|center" android:id="@id/buttonAds" android:background="@color/bg_store_8_2" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/button_get_free_coins" android:layout_toRightOf="@id/buttonAdsPrice" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rowLike" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="36.0dip" android:gravity="center" android:id="@id/buttonLikePrice" android:background="@color/bg_store_9_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="@string/button_like" />
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="18.0dip" android:gravity="start|center" android:id="@id/buttonLike" android:background="@color/bg_store_9_2" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/button_like_coins" android:layout_toRightOf="@id/buttonLikePrice" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="36.0dip" android:gravity="center" android:id="@id/buttonFreePrice" android:background="@color/bg_store_10_1" android:layout_width="72.0dip" android:layout_height="72.0dip" android:text="@string/button_free" />
+                <com.jutiful.rebus.utils.SAutoBgButton android:textSize="18.0dip" android:gravity="start|center" android:id="@id/buttonFree" android:background="@color/bg_store_10_2" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:text="@string/button_free_coins" android:layout_toRightOf="@id/buttonFreePrice" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

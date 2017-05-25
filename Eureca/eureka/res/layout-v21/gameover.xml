@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/rate_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ff95c11f" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Game Over" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="45.0sp" android:textStyle="bold" android:textColor="@color/Black" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Σκορ" android:layout_below="@id/message" android:layout_centerHorizontal="true" />
+    <EditText android:id="@id/textbox" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:hint="@string/hint" android:ems="15" android:layout_below="@id/score" android:layout_centerHorizontal="true">
+        <requestFocus />
+    </EditText>
+    <Button android:textStyle="bold" android:textColor="@color/White" android:id="@id/replay" android:background="@drawable/buttonnewgame" android:layout_width="180.0dip" android:layout_height="50.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <Button android:textStyle="bold" android:textColor="@color/White" android:id="@id/exit" android:background="@drawable/buttonexitgame" android:layout_width="180.0dip" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/Black" android:layout_gravity="center_horizontal" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="Your score is " android:layout_below="@id/title" android:layout_centerHorizontal="true" android:elevation="1.0dip" />
+</RelativeLayout>

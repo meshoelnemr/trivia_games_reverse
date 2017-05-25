@@ -1,0 +1,34 @@
+{
+	"notMotivated":
+	{
+		"active":"admob,chartboost",
+		"afterSolved":4
+	},
+	"motivated":
+	{
+		"active":"admob,chartboost,unityads,vungle",
+		"coins":[
+			{
+				"service":"admob",
+				"coins":100
+			},
+			{
+				"service":"chartboost",
+				"coins":100
+			},
+			{
+				"service":"adcolony",
+				"coins":100
+			},
+			{
+				"service":"unityads",
+				"coins":100
+			},
+			{
+				"service":"vungle",
+				"coins":100
+			}
+		]
+	},
+	"smallBanner":"active"	
+}

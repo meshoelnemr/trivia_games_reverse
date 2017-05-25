@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/linearLayout6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="3.0" android:layout_weight="1.0">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/linearLayout5" android:background="@drawable/score" android:layout_width="wrap_content" android:layout_height="65.0dip" android:layout_margin="0.0dip" android:weightSum="3.0">
+            <Button android:gravity="center" android:id="@id/imageButton1" android:background="@drawable/next_question" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="1.0dip" android:adjustViewBounds="true" android:onClick="nextQuestion" />
+            <Button android:gravity="center" android:id="@id/imageButton2" android:background="@drawable/eureka" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="7.0dip" android:adjustViewBounds="true" android:onClick="eureka" />
+            <Button android:gravity="center" android:id="@id/imageButton3" android:background="@drawable/peninta" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginLeft="7.0dip" android:adjustViewBounds="true" android:onClick="peninta" />
+            <com.google.android.gms.ads.AdView android:layout_gravity="center" android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-3681432414784125/5038352041" xmlns:ads="http://schemas.android.com/apk/res-auto" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/linearLayoutQuestion" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="2.0" android:layout_weight="2.0">
+        <ProgressBar android:id="@id/timer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="5.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:max="200" android:indeterminateOnly="false" android:layout_weight="0.2" style="?android:attr/progressBarStyleHorizontal" />
+        <com.educ8s.eureka2017.AutoResizeTextView android:textColor="@color/White" android:gravity="center" android:id="@id/textViewQuestion" android:background="@drawable/category_gradient" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="5.0dip" android:text="Ερώτηση ..." android:layout_weight="1.6" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/linearLayoutAnswer1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="2.0" android:layout_weight="1.0">
+        <Button android:textColor="@color/White" android:id="@id/apantisiA" android:background="@drawable/blue" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="Απάντηση A" android:layout_weight="1.0" />
+        <Button android:textColor="@color/White" android:id="@id/apantisiB" android:background="@drawable/blue" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="Απάντηση B" android:layout_weight="1.0" /> />
+</LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/linearLayoutAnswer2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="2.0" android:layout_weight="1.0">
+        <Button android:textColor="@color/White" android:id="@id/apantisiC" android:background="@drawable/blue" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="Απάντηση Γ" android:layout_weight="1.0" />
+        <Button android:textColor="@color/White" android:id="@id/apantisiD" android:background="@drawable/blue" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="Απάντηση Δ" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

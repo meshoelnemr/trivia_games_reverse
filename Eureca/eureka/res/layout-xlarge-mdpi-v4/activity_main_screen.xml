@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_layout" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:gravity="center" android:orientation="horizontal" android:id="@id/tableRow1" android:layout_width="fill_parent" android:layout_height="160.0dip">
+        <ImageView android:id="@id/imageView1" android:layout_width="500.0dip" android:layout_height="160.0dip" android:src="@drawable/title" android:contentDescription="Logo Eureka" />
+    </TableRow>
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_below="@id/tableRow1" android:layout_centerHorizontal="true">
+        <Button android:id="@id/start" android:background="@drawable/buttonquickgame" android:layout_width="350.0dip" android:layout_height="100.0dip" android:layout_marginTop="30.0dip" android:onClick="OnClickButton" />
+        <Button android:id="@id/bt_start" android:background="@drawable/buttonstart" android:layout_width="350.0dip" android:layout_height="100.0dip" android:layout_marginTop="20.0dip" android:onClick="OnClickButton" />
+        <Button android:id="@id/bt_settings" android:background="@drawable/buttonmoregames" android:layout_width="350.0dip" android:layout_height="100.0dip" android:layout_marginTop="20.0dip" android:onClick="OnClickButton" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/score" android:background="@drawable/buttonscore" android:layout_width="90.0dip" android:layout_height="80.0dip" android:onClick="OnClickButton" />
+        <Button android:id="@id/email" android:background="@drawable/buttonachievements" android:layout_width="85.0dip" android:layout_height="80.0dip" android:layout_marginLeft="60.0dip" android:onClick="OnClickButton" />
+        <Button android:id="@id/rate" android:background="@drawable/buttonsettings" android:layout_width="85.0dip" android:layout_height="75.0dip" android:layout_marginLeft="60.0dip" android:onClick="OnClickButton" />
+        <Button android:id="@id/like" android:background="@drawable/buttonfacebook" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginLeft="60.0dip" android:onClick="OnClickButton" />
+        <Button android:id="@id/info" android:background="@drawable/buttonabout" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginLeft="60.0dip" android:onClick="OnClickButton" />
+    </LinearLayout>
+</RelativeLayout>

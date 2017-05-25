@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/settings_layout" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <Button android:gravity="center_vertical" android:id="@id/btn_back" android:background="@drawable/btn_back" android:layout_width="45.0dip" android:layout_height="35.0dip" android:layout_marginLeft="30.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="Clicked" android:layout_alignParentStart="true" />
+            <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/title" android:layout_width="230.0dip" android:layout_height="50.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="Eureka" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/White" android:gravity="right" android:id="@id/tv_version" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/version" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/White" android:gravity="left" android:id="@id/tv_version_number" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip" android:text="@string/version_text" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/WhiteSmoke" android:gravity="right" android:id="@id/tv_development" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/development" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/White" android:textColorLink="@color/WhiteSmoke" android:gravity="left" android:autoLink="web" android:id="@id/tv_development_text" android:layout_width="230.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/development_text" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/White" android:gravity="right" android:id="@id/tv_designer" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/graphics" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/White" android:textColorLink="@color/WhiteSmoke" android:gravity="left" android:autoLink="web" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/graphic_text" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/White" android:gravity="right" android:id="@id/tv_music" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/music_credits" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/White" android:gravity="left" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/music_composer" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/White" android:gravity="right" android:id="@id/tv_email" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="@string/contact_email" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/White" android:textColorLink="@color/WhiteSmoke" android:gravity="left" android:autoLink="email" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/email_text" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

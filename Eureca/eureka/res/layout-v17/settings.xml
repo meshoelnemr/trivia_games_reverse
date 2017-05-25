@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/settings_layout" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/soundButtons" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:id="@id/btn_sound" android:background="@drawable/btn_sound_on" android:layout_width="50.0dip" android:layout_height="50.0dip" android:onClick="Clicked" />
+        <Button android:gravity="right" android:id="@id/btn_music" android:background="@drawable/btn_music_on" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_alignParentBottom="false" android:onClick="Clicked" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+            <Button android:gravity="center_vertical" android:id="@id/btn_back" android:background="@drawable/btn_back" android:layout_width="45.0dip" android:layout_height="35.0dip" android:layout_marginLeft="30.0dip" android:layout_centerVertical="true" android:onClick="Clicked" android:layout_alignParentStart="true" />
+            <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/title_settings" android:layout_width="230.0dip" android:layout_height="50.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="Settings" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/iv_chooselanguage" android:background="@drawable/iv_chooselanguage" android:layout_width="175.0dip" android:layout_height="20.0dip" android:layout_marginTop="25.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/flags" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+            <Button android:id="@id/us" android:background="@drawable/us_selected" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:onClick="Clicked" />
+            <Button android:id="@id/german" android:background="@drawable/german" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:onClick="Clicked" />
+            <Button android:id="@id/spanish" android:background="@drawable/spanish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:onClick="Clicked" />
+            <Button android:id="@id/french" android:background="@drawable/french" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:onClick="Clicked" />
+            <Button android:id="@id/greek" android:background="@drawable/greek" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:onClick="Clicked" />
+            <Button android:id="@id/indonesian" android:background="@drawable/indonesia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="1.0" android:onClick="Clicked" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/iv_sound_settings" android:background="@drawable/sound_settings" android:layout_width="160.0dip" android:layout_height="20.0dip" android:layout_marginTop="60.0dip" />
+    </LinearLayout>
+</RelativeLayout>
